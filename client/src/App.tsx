@@ -7,6 +7,7 @@ import {
 import { DevtoolsPanel, DevtoolsProvider } from "@refinedev/devtools";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
 
+import CssBaseline from "@mui/material/CssBaseline";
 import {
   ErrorComponent,
   notificationProvider,
@@ -14,7 +15,6 @@ import {
   ThemedLayoutV2,
 } from "@refinedev/mui";
 
-import CssBaseline from "@mui/material/CssBaseline";
 import GlobalStyles from "@mui/material/GlobalStyles";
 import routerBindings, {
   CatchAllNavigate,
